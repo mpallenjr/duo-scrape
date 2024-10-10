@@ -1,6 +1,8 @@
 source "https://rubygems.org"
+gem "dotenv"
 
 gem "bootsnap", require: false
+gem "ferrum"
 gem "importmap-rails"
 gem "jbuilder"
 gem "puma", ">= 5.0"
@@ -8,7 +10,6 @@ gem "rails", "~> 7.2.1"
 gem "sprockets-rails"
 gem "sqlite3", ">= 1.4"
 gem "stimulus-rails"
-gem "ferrum"
 gem "turbo-rails"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
